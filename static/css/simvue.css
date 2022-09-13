@@ -3,6 +3,7 @@ body {
   color: #ffffff;
   font-size: 0.9rem;
 background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+background-repeat: no-repeat;
 }
 
 .a {
