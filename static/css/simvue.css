@@ -1,7 +1,10 @@
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color: #ffffff;
+  color: #000000;
   font-size: 0.9rem;
+}
+
+.gradient1 {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   background-repeat: no-repeat;
 }
@@ -12,9 +15,9 @@ body {
 }
 
 .feather {
-  width: 48px;
-  height: 48px;
-  color: #d0dfeb;
+  width: 32px;
+  height: 32px;
+  color: #000000;
 }
 
 

@@ -16,63 +16,57 @@
     <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark simvue">
-      <div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01"><a class="navbar-brand logo" href="#">simvue</a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul><a href="#" class="btn btn-outline-light" role="button">Login</a>
+    <div class="container-fluid gradient1 pb-5">
+      <nav class="navbar navbar-expand-lg navbar-dark simvue">
+        <div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01"><a class="navbar-brand logo" href="#">simvue</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul><a href="#" class="btn btn-outline-light" role="button">Login</a>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="container-fluid">
-      <div style="background:transparent !important" class="jumbotron align-items-center">
+      </nav>
+      <div class="jumbotron align-items-center">
         <div class="container">
           <div class="row pt-5">
             <div class="col-10">
               <div class="display-4 text-left text-light" style="font-weight:100"> Simulation tracking and monitoring </div>
-              <h5 class="text-left text-light mb-6 mb-lg-8 pt-4" style="font-weight:100"> Organise your simulations by capturing metadata and data in real time. Understand your simulations with monitoring, logging and alerting. Explore the connections between simulations. All from a single platform. </h5>
-              <a href="https://docs.simvue.io" class="link-light">Learn more</a><br /><br /><a href="#" class="btn btn-primary" role="button">Get started</a>
+              <h5 class="text-left text-light mb-6 mb-lg-8 pt-4" style="font-weight:100"> Organise your simulations by capturing metadata and data in real time. Understand your simulations with monitoring, logging and alerting. Explore the connections between simulations. All from a single platform. </h5><a href="https://docs.simvue.io" class="link-light">Learn more</a><br /><br /><a href="#" class="btn btn-primary" role="button">Get started</a>
               <h6></h6>
             </div>
           </div>
         </div>
-      </div><br /><br /><br /><br />
-      <div class="container simvuewhite">
-        <div class="row">
-          <div class="col"><i class="feather-large" data-feather="globe"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Tracking </h4>
-            <p> Monitor simulations running anywhere in the world using a simple Python client. </p>
-          </div>
-          <div class="col"><i class="feather-large" data-feather="activity"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Time series metrics </h4>
-            <p> Monitor the performance of simulations by collecting and visualising metrics. </p>
-          </div>
-          <div class="col"><i class="feather-large" data-feather="bell"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Alerting </h4>
-            <p> Define criteria for triggering alerts based on metrics. Automatically find out when simulations are not performing well. </p>
-          </div>
-        </div><br /><br />
-        <div class="row">
-          <div class="col"><i class="feather-large" data-feather="share-2"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Metadata </h4>
-            <p> Collect arbitrary metadata and categorise simulations using tags. </p>
-          </div>
-          <div class="col"><i class="feather-large" data-feather="database"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Artifacts </h4>
-            <p> Store software, input and output files or even intermediate files. </p>
-          </div>
-          <div class="col"><i class="feather-large" data-feather="server"></i><br /><br />
-            <h4 class="text-center text-md-left" style="font-weight:300"> Errors and logs </h4>
-            <p> Capture exceptions, errors and log messages to help identity problems. </p>
-          </div>
+      </div>
+    </div>
+    <div class="container simvuewhite pt-5">
+      <div class="row">
+        <div class="col"><i class="feather-large" data-feather="globe"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Tracking </h4>
+          <p> Monitor simulations running anywhere in the world using a simple Python client. </p>
+        </div>
+        <div class="col"><i class="feather-large" data-feather="activity"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Time series metrics </h4>
+          <p> Monitor the performance of simulations by collecting and visualising metrics. </p>
+        </div>
+        <div class="col"><i class="feather-large" data-feather="bell"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Alerting </h4>
+          <p> Define criteria for triggering alerts based on metrics. Automatically find out when simulations are not performing well. </p>
+        </div>
+      </div><br /><br />
+      <div class="row">
+        <div class="col"><i class="feather-large" data-feather="share-2"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Metadata </h4>
+          <p> Collect arbitrary metadata and categorise simulations using tags. </p>
+        </div>
+        <div class="col"><i class="feather-large" data-feather="database"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Artifacts </h4>
+          <p> Store software, input and output files or even intermediate files. </p>
+        </div>
+        <div class="col"><i class="feather-large" data-feather="server"></i><br /><br />
+          <h4 class="text-md-left" style="font-weight:300"> Errors and logs </h4>
+          <p> Capture exceptions, errors and log messages to help identity problems. </p>
         </div>
       </div>
-    </div><br /><br /><br />
-    <!-- Footer -->
-    <footer class="footer text-center text-lg-start bg-light text-muted">
-      <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"></div>
-      <!-- Copyright -->
-    </footer>
+    </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
