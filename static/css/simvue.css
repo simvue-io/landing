@@ -32,14 +32,6 @@ font-size: 1.0rem;
   text-decoration: none !important;
 }
 
-.fa-stack {
-  font-size: 1.0em;
-}
-
-.fa-stack-2x {
-  opacity: 0.3;
-}
-
 .logo {
   font-family: 'Montserrat', sans-serif;
 }
@@ -51,10 +43,6 @@ font-size: 1.0rem;
 .feather-16{
 width: 16px;
 height: 16px;
-}
-
-.table {
-  color: #000000;
 }
 
 th {
