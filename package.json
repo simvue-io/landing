@@ -1,7 +1,7 @@
 {
   "name": "open-react-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
     "feather-icons": "^4.29.0",
