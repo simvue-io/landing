@@ -7,7 +7,7 @@ $button-form--group-padding: 	12px;		// padding separating input from button in 
 
 // Buttons: text color
 $button--color: (
-	button-light: 		get-color(dark, 2),
+	button-light: 		get-color(dark, 3),
 	button-dark: 		get-color(light, 1),
 	button-primary: 	get-color(light, 1),
 	button-secondary:	get-color(light, 1),
@@ -18,8 +18,8 @@ $button--color: (
 $button--bg: (
 	button-light: 			get-color(light, 1),
 	button-light-hover: 	darken(get-color(light, 1), 5%),
-	button-dark: 			get-color(dark, 2),
-	button-dark-hover: 		lighten(get-color(dark, 2), 2%),
+	button-dark: 			get-color(dark, 3),
+	button-dark-hover: 		lighten(get-color(dark, 3), 2%),
 	button-primary: 		get-color(primary, 1),
 	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
 	button-secondary: 		get-color(secondary, 1),
