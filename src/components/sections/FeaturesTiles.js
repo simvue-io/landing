@@ -112,7 +112,7 @@ Monitor the performance of simulations by collecting and visualising metrics.
                     Alerting 
                     </h4>
                   <p className="m-0 text-sm">
-Define criteria for triggering alerts based on metrics. Automatically find out when simulations are not performing well. 
+Automatically find out when simulations are not performing well. 
                     </p>
                 </div>
               </div>
@@ -167,7 +167,7 @@ Store software, input and output files or even intermediate files.
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/server.svg')}
+                      src={require('./../../assets/images/align-justify.svg')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />
@@ -175,7 +175,7 @@ Store software, input and output files or even intermediate files.
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-Errors and logs 
+Events and logs 
                     </h4>
                   <p className="m-0 text-sm">
 Capture exceptions, errors and log messages to help identity problems. 
