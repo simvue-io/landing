@@ -87,7 +87,7 @@ Monitor simulations running anywhere in the world using a simple Python client.
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Time series metrics
+                    Metrics
                     </h4>
                   <p className="m-0 text-sm">
 Monitor the performance of simulations by collecting and visualising metrics. 
