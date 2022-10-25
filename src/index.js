@@ -9,6 +9,16 @@ import * as serviceWorker from './serviceWorker';
 //import './App.css';
 import './assets/scss/style.scss';
 
+import Plausible from 'plausible-tracker'
+
+const { trackPageview } = Plausible({
+  domain: 'simvue.io',
+  apiHost: 'https://plausible.uryisv.cloud'
+})
+
+// Track a page view
+trackPageview();
+
 const history = createBrowserHistory();
 
 ReactDOM.render(
