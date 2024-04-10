@@ -1,48 +1,28 @@
 {
-  "name": "open-react-template",
+  "name": "simvue",
   "version": "0.1.0",
-  "private": false,
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "feather-icons": "^4.29.0",
-    "lodash": "^4.17.15",
-    "plausible-tracker": "^0.3.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-ga": "^2.7.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
-  },
-  "homepage": "https://simvue.io",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/simvue-io/landing.git"
-  },
+  "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "next": "14.1.4",
+    "preline": "^2.1.0",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
