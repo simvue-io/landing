@@ -1,7 +1,0 @@
-{
-  "/_not-found": "app/_not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/use-cases/openfoam/page": "app/use-cases/openfoam/page.js",
-  "/use-cases/page": "app/use-cases/page.js"
-}
