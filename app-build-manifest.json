@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-b75ef3f4139352ce.js",
+      "static/chunks/fd9d1056-69c4f11a19744e90.js",
+      "static/chunks/69-1f4c3192b5c3dc0a.js",
+      "static/chunks/main-app-a3521a6b0a4089aa.js",
+      "static/chunks/app/_not-found-71af6713aba1559a.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-b75ef3f4139352ce.js",
+      "static/chunks/fd9d1056-69c4f11a19744e90.js",
+      "static/chunks/69-1f4c3192b5c3dc0a.js",
+      "static/chunks/main-app-a3521a6b0a4089aa.js",
+      "static/css/84064b0da5f17b6a.css",
+      "static/chunks/app/layout-2ed455546d7e023d.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-b75ef3f4139352ce.js",
+      "static/chunks/fd9d1056-69c4f11a19744e90.js",
+      "static/chunks/69-1f4c3192b5c3dc0a.js",
+      "static/chunks/main-app-a3521a6b0a4089aa.js",
+      "static/chunks/app/page-ca52e9263b4f3cdd.js"
+    ],
+    "/use-cases/openfoam/page": [
+      "static/chunks/webpack-b75ef3f4139352ce.js",
+      "static/chunks/fd9d1056-69c4f11a19744e90.js",
+      "static/chunks/69-1f4c3192b5c3dc0a.js",
+      "static/chunks/main-app-a3521a6b0a4089aa.js",
+      "static/chunks/app/use-cases/openfoam/page-42914c3b5b2ee0fa.js"
+    ],
+    "/use-cases/page": [
+      "static/chunks/webpack-b75ef3f4139352ce.js",
+      "static/chunks/fd9d1056-69c4f11a19744e90.js",
+      "static/chunks/69-1f4c3192b5c3dc0a.js",
+      "static/chunks/main-app-a3521a6b0a4089aa.js",
+      "static/chunks/app/use-cases/page-1bbe58c6f0b65d4d.js"
+    ]
+  }
+}
