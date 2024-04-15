@@ -69,7 +69,7 @@ export default function Page() {
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="/"
+                href="/landing"
               >
                 Home
               </a>
@@ -81,7 +81,7 @@ export default function Page() {
               </a>
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="/use-cases"
+                href="/landing/use-cases"
               >
                 Use cases
               </a>
@@ -103,7 +103,7 @@ export default function Page() {
           </div>
 
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a class="group" href="/use-cases/openfoam">
+            <a class="group" href="/landing/use-cases/openfoam">
               <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
                 <img
                   class="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
