@@ -125,7 +125,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-slate-800 pt-10 pb-4">
+        <div className="bg-gray-100 dark:bg-slate-800 pt-10 pb-4">
           <div className="max-w-2xl mx-auto text-center pt-4 pb-4 lg:pb-1">
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
               Core capabilities
