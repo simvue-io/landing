@@ -1,7 +1,7 @@
 {
   "name": "simvue",
   "version": "0.1.0",
-  "homepage": "https://simvue-io.github.io/landing/",
+  "homepage": "https://simvue-io.github.io/landing",
   "private": true,
   "scripts": {
     "dev": "next dev",
