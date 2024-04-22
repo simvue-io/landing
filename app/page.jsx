@@ -188,8 +188,7 @@ export default function Home() {
                         Metadata
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Collect arbitrary metadata and categorise simulations
-                        using tags.
+                        Collect arbitrary metadata and categorise using tags.
                       </p>
                     </div>
                   </div>
