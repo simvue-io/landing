@@ -77,7 +77,7 @@ export default function Home() {
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
                 href="https://docs.simvue.io"
               >
-                Docs
+                Documentation
               </a>
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
@@ -125,7 +125,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-gray-100 dark:bg-slate-800 pt-10 pb-4">
+        <div className="bg-gray-100 dark:bg-slate-800 pt-12 pb-6">
           <div className="max-w-2xl mx-auto text-center pt-4 pb-4 lg:pb-1">
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
               Core capabilities
@@ -310,7 +310,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-2xl mx-auto text-center pt-20 pb-6 lg:pb-16">
+        <div className="max-w-4xl mx-auto text-center pt-20 pb-6 lg:pb-16">
           <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
             Why Simvue?
           </h2>
