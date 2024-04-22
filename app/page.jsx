@@ -460,7 +460,7 @@ export default function Home() {
                     >
                       <img
                         className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                        src="/image2.png"
+                        src="image2.png"
                         alt="Image Description"
                       />
                     </div>
@@ -473,7 +473,7 @@ export default function Home() {
                     >
                       <img
                         className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                        src="/image3.png"
+                        src="image3.png"
                         alt="Image Description"
                       />
                     </div>
@@ -486,7 +486,7 @@ export default function Home() {
                     >
                       <img
                         className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                        src="/image4.png"
+                        src="image4.png"
                         alt="Image Description"
                       />
                     </div>
