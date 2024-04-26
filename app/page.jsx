@@ -141,22 +141,14 @@ Organise and gain insights into your data or AI/ML training by capturing metadat
               <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
                 <div className="space-y-6 lg:space-y-10">
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-globe"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#007aff"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-world" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#007aff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M3.6 9h16.8" />
+  <path d="M3.6 15h16.8" />
+  <path d="M11.5 3a17 17 0 0 0 0 18" />
+  <path d="M12.5 3a17 17 0 0 1 0 18" />
+</svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Tracking
@@ -168,24 +160,16 @@ Track and monitor in real-time, all your data processing tasks or simulations ru
                   </div>
 
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-share-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#00aaff"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <circle cx="18" cy="5" r="3"></circle>
-                      <circle cx="6" cy="12" r="3"></circle>
-                      <circle cx="18" cy="19" r="3"></circle>
-                      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-                      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-binary-tree-2" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00aaff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M7 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M21 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M14 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M12 8v8" />
+  <path d="M6.316 12.496l4.368 -4.992" />
+  <path d="M17.684 12.496l-4.366 -4.99" />
+</svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Metadata
@@ -197,22 +181,12 @@ Collect arbitrary metadata and categorise your data using tags for better data d
                   </div>
 
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-database"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#00c9ff"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
-                      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-database" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00c9ff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+  <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+  <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+</svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Artifacts
@@ -226,20 +200,10 @@ Store and easily retrieve software, input, intermediate and output files.
 
                 <div className="space-y-6 lg:space-y-10">
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-activity"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#00e0ff"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-activity-heartbeat" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00e0ff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5" />
+</svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Metrics
@@ -251,23 +215,7 @@ Monitor performance by collecting and visualising metrics so you are in control 
                   </div>
 
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-align-justify"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#00f2c8"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <line x1="21" y1="10" x2="3" y2="10"></line>
-                      <line x1="21" y1="6" x2="3" y2="6"></line>
-                      <line x1="21" y1="14" x2="3" y2="14"></line>
-                      <line x1="21" y1="18" x2="3" y2="18"></line>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00f2c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1 size-8 feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Events and logs
@@ -279,21 +227,12 @@ Capture exceptions, errors and log messages to help identity problems.
                   </div>
 
                   <div className="flex">
-                    <svg
-                      className="w-16 h-16 mb-4 feather feather-bell"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="54"
-                      height="54"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#00ff90"
-                      strokeWidth="1.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                      <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-bell-bolt" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00ff90" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M13.5 17h-9.5a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6a2 2 0 1 1 4 0a7 7 0 0 1 4 6v1" />
+  <path d="M9 17v1a3 3 0 0 0 4.368 2.67" />
+  <path d="M19 16l-2 3h4l-2 3" />
+</svg>
                     <div className="ms-5 sm:ms-8">
                       <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
                         Alerting
