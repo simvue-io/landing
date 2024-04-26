@@ -531,7 +531,7 @@ export default function Home() {
         <div className="pt-2 pb-2">
           <div className="w-full mx-auto pt-16 pb-16 text-center bg-gradient-to-br from-violet-700 to-sky-500">
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl text-white">
-              Are you ready to take back control?
+              Are you ready to take control?
             </h2>
             <div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
               Stop using notebooks to manually keep track of complex workflows.
