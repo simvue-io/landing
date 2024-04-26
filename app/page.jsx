@@ -346,7 +346,7 @@ green computing.
             simulations or data processing tasks?
           </p>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
-            Do you want to gain back control and efficiently use your computing
+            Do you want to gain control and efficiently use your computing
             resources to minimise your carbon footprint?
           </p>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
