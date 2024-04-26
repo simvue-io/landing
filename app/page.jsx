@@ -154,7 +154,7 @@ green computing.
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-world"
+                      className="flex-shrink-0 mt-1 size-10 icon icon-tabler icon-tabler-world"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
@@ -185,7 +185,7 @@ green computing.
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-binary-tree-2"
+                      className="flex-shrink-0 mt-1 size-10 icon icon-tabler icon-tabler-binary-tree-2"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
@@ -218,7 +218,7 @@ green computing.
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-database"
+                      className="flex-shrink-0 mt-1 size-10 icon icon-tabler icon-tabler-database"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
@@ -249,7 +249,7 @@ green computing.
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-activity-heartbeat"
+                      className="flex-shrink-0 mt-1 size-10 icon icon-tabler icon-tabler-activity-heartbeat"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
@@ -285,7 +285,7 @@ green computing.
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="flex-shrink-0 mt-1 size-8 feather feather-align-justify"
+                      className="flex-shrink-0 mt-1 size-10 feather feather-align-justify"
                     >
                       <line x1="21" y1="10" x2="3" y2="10"></line>
                       <line x1="21" y1="6" x2="3" y2="6"></line>
@@ -306,7 +306,7 @@ green computing.
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-bell-bolt"
+                      className="flex-shrink-0 mt-1 size-10 icon icon-tabler icon-tabler-bell-bolt"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
