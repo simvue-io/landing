@@ -496,11 +496,10 @@ Simvue lets you log and organise your work in a single place, whether you're run
 
         <div className="max-w-2xl mx-auto text-center pt-20 pb-6 lg:pb-16">
           <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
-            Ready to understand your workflows?
+            Are you ready to take back control?
           </h2>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
-            Stop using notebooks to manually keep track of complex workflows.
-            Log all steps in your data pipelines and workflows automatically.
+Stop using notebooks to manually keep track of complex workflows. Use Simvue for real-time monitoring and tracking, efficiently use your computing resources and minimise your carbon footprint.
           </p>
 
           <ul className="flex flex-wrap justify-center text-lg text-gray-400 -mx-2 -my-1 lg:pt-4">
