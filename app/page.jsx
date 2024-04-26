@@ -136,6 +136,15 @@ export default function Home() {
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
               Core capabilities
             </h2>
+          <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
+Real-time tracking
+and
+monitoring
+of any simulation or data processing task to enable faster
+data discovery
+and facilitate
+green computing.
+          </p>    
           </div>
 
           <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
