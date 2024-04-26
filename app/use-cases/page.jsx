@@ -140,7 +140,7 @@ export default function Page() {
               </div>
             </a>
 
-            <a class="group" href="#">
+            <a class="group" href="/landing/use-cases/fds">
               <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
                 <img
                   class="size-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
