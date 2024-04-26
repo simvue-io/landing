@@ -158,8 +158,7 @@ export default function Home() {
                         Tracking
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Track and monitor simulations running anywhere in the
-                        world.
+Track and monitor in real-time, all your data processing tasks or simulations running anywhere in the world.
                       </p>
                     </div>
                   </div>
@@ -188,7 +187,7 @@ export default function Home() {
                         Metadata
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Collect arbitrary metadata and categorise using tags.
+Collect arbitrary metadata and categorise your data using tags for better data discovery.
                       </p>
                     </div>
                   </div>
@@ -215,7 +214,7 @@ export default function Home() {
                         Artifacts
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Store software, input, intermediate and output files.
+Store and easily retrieve software, input, intermediate and output files.
                       </p>
                     </div>
                   </div>
@@ -242,8 +241,7 @@ export default function Home() {
                         Metrics
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Monitor performance by collecting and visualising
-                        metrics.
+Monitor performance by collecting and visualising metrics so you are in control of your simulations or data processing tasks.
                       </p>
                     </div>
                   </div>
@@ -271,8 +269,7 @@ export default function Home() {
                         Events and logs
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Capture exceptions, errors and log messages to help
-                        identity problems.
+Capture exceptions, errors and log messages to help identity problems.
                       </p>
                     </div>
                   </div>
@@ -298,8 +295,7 @@ export default function Home() {
                         Alerting
                       </h3>
                       <p className="mt-1 text-gray-600 dark:text-gray-400">
-                        Automatically find out when simulations are not
-                        performing well.
+Automatically find out when simulations are not performing well.
                       </p>
                     </div>
                   </div>
