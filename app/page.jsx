@@ -1,4 +1,10 @@
+"use client";
+
+import { useRouter } from 'next/navigation';
+
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className="bg-white dark:bg-slate-900">
       <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-slate-900 dark:border-gray-700">
@@ -308,7 +314,9 @@ Automatically find out when simulations are not performing well.
             Why Simvue?
           </h2>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
-Are you struggling to keep track of hundreds or thousands of simulations or data processing tasks?  Do you want to gain back control and efficiently use your computing resources to minimise your carbon footprint?
+Are you struggling to keep track of hundreds or thousands of simulations or data processing tasks?</p>
+ <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
+Do you want to gain back control and efficiently use your computing resources to minimise your carbon footprint?
 </p>
 <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
 Simvue lets you log and organise your work in a single place, whether you're running simulations using thousands of CPUs on a large HPC cluster, running hundreds of simulations as part of a parameter study, training a model on a public cloud, or doing all of this at the same time
@@ -494,100 +502,20 @@ Simvue lets you log and organise your work in a single place, whether you're run
           </div>
         </div>
 
-        <div className="max-w-2xl mx-auto text-center pt-20 pb-6 lg:pb-16">
-          <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl dark:text-white">
+        <div className="pt-2 pb-2">
+        <div className="w-full mx-auto pt-16 pb-16 text-center bg-gradient-to-br from-violet-700 to-sky-500">
+          <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl text-white">
             Are you ready to take back control?
           </h2>
-          <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
+<div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
 Stop using notebooks to manually keep track of complex workflows. Use Simvue for real-time monitoring and tracking, efficiently use your computing resources and minimise your carbon footprint.
-          </p>
-
-          <ul className="flex flex-wrap justify-center text-lg text-gray-400 -mx-2 -my-1 lg:pt-4">
-            <li className="flex items-center mx-3 my-1">
-              <span className="mt-0.5 mr-1 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                <svg
-                  className="flex-shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              </span>
-              <span className="text-sm sm:text-base text-gray-500">
-                Compare
-              </span>
-            </li>
-            <li className="flex items-center mx-3 my-1">
-              <span className="mt-0.5 mr-1 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                <svg
-                  className="flex-shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              </span>
-              <span className="text-sm sm:text-base text-gray-500">
-                Search, sort & filter
-              </span>
-            </li>
-            <li className="flex items-center mx-3 my-1">
-              <span className="mt-0.5 mr-1 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                <svg
-                  className="flex-shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              </span>
-              <span className="text-sm sm:text-base text-gray-500">
-                Visualize
-              </span>
-            </li>
-            <li className="flex items-center mx-3 my-1">
-              <span className="mt-0.5 mr-1 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                <svg
-                  className="flex-shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              </span>
-              <span className="text-sm sm:text-base text-gray-500">
-                Live monitoring
-              </span>
-            </li>
-          </ul>
+          </div>
+<div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
+<button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" onClick={() => router.push('mailto:info@simvue.io')}>
+  Contact Us
+</button>
+</div>
+        </div>
         </div>
       </main>
     </div>
