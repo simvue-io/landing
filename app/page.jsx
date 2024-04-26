@@ -496,7 +496,7 @@ green computing.
                     >
                       <img
                         className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                        src="image2.png"
+                        src="simvue002.png"
                         alt="Image Description"
                       />
                     </div>
