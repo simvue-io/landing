@@ -137,7 +137,7 @@ export default function Home() {
               Core capabilities
             </h2>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
-Real-time tracking
+Simvue provides real-time tracking
 and
 monitoring
 of any simulation or data processing task to enable faster
