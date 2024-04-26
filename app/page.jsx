@@ -308,11 +308,10 @@ Automatically find out when simulations are not performing well.
             Why Simvue?
           </h2>
           <p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
-            Whether you're running simulations using thousands of CPUs on a
-            large HPC cluster, running hundreds of simulations as part of a
-            parameter study, training a model on a public cloud, or doing all of
-            this at the same time, Simvue lets you log and organise your work in
-            a single place.
+Are you struggling to keep track of hundreds or thousands of simulations or data processing tasks?  Do you want to gain back control and efficiently use your computing resources to minimise your carbon footprint?
+</p>
+<p className="mt-4 md:text-lg text-gray-600 dark:text-gray-400">
+Simvue lets you log and organise your work in a single place, whether you're running simulations using thousands of CPUs on a large HPC cluster, running hundreds of simulations as part of a parameter study, training a model on a public cloud, or doing all of this at the same time
           </p>
         </div>
 
