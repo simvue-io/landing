@@ -108,9 +108,7 @@ export default function Home() {
 
             <div className="mt-5 max-w-3xl text-center mx-auto">
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                Organise and gain insights your simulations, processing tasks
-                and AI/ML training by capturing metadata and data combined with
-                real-time monitoring, logging and alerting.
+Organise and gain insights into your data or AI/ML training by capturing metadata and data combined with real-time monitoring, logging and alerting.
               </p>
             </div>
 
