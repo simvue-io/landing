@@ -544,7 +544,7 @@ green computing.
             </h2>
             <div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
               Stop using notebooks to manually keep track of complex workflows.
-              Use Simvue for real-time monitoring and tracking, efficiently use
+              Use Simvue for real-time monitoring and tracking, to efficiently use
               your computing resources and minimise your carbon footprint.
             </div>
             <div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
