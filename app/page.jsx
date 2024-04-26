@@ -145,15 +145,15 @@ export default function Home() {
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-world"
+                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-world"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#007aff"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
@@ -176,15 +176,15 @@ export default function Home() {
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-binary-tree-2"
+                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-binary-tree-2"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#00aaff"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
@@ -209,15 +209,15 @@ export default function Home() {
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-database"
+                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-database"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#00c9ff"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
@@ -240,15 +240,15 @@ export default function Home() {
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-activity-heartbeat"
+                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-activity-heartbeat"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#00e0ff"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5" />
@@ -273,10 +273,10 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="#00f2c8"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="flex-shrink-0 mt-1 size-8 feather feather-align-justify"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="flex-shrink-0 mt-1 size-8 feather feather-align-justify"
                     >
                       <line x1="21" y1="10" x2="3" y2="10"></line>
                       <line x1="21" y1="6" x2="3" y2="6"></line>
@@ -297,15 +297,15 @@ export default function Home() {
                   <div className="flex">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-bell-bolt"
+                      className="flex-shrink-0 mt-1 size-8 icon icon-tabler icon-tabler-bell-bolt"
                       width="48"
                       height="48"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#00ff90"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M13.5 17h-9.5a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6a2 2 0 1 1 4 0a7 7 0 0 1 4 6v1" />
@@ -541,7 +541,7 @@ export default function Home() {
             <div className="mt-5 max-w-4xl text-center mx-auto md:text-lg text-white">
               <button
                 type="button"
-                class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
+                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
                 onClick={() => router.push("mailto:info@simvue.io")}
               >
                 Contact Us
