@@ -7,18 +7,6 @@ export default function Footer() {
             <div className="space-x-4 text-sm ms-4">
               <a
                 className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
-                href="#"
-              >
-                Terms
-              </a>
-              <a
-                className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
-                href="#"
-              >
-                Privacy
-              </a>
-              <a
-                className="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                 href="https://status.simvue.io"
               >
                 Status
