@@ -12,6 +12,9 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/x-charts": "^7.3.2",
     "next": "14.1.4",
     "preline": "^2.1.0",
     "react": "^18",
