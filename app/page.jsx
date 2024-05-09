@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import RunsTable from "./components/RunsTable";
 import AlertsTable from "./components/AlertsTable";
-import AlertsPlot from "./components/AlertsPlot";
 
 export default function Home() {
   const router = useRouter();
