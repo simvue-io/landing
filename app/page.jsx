@@ -356,10 +356,7 @@ green computing.
 
 
 <div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-8 mx-auto">
-  <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-32">
-    <div className="col-span-2">
-      <RunsTable />
-    </div>
+  <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-12">
 
     <div className="mt-5 sm:mt-5 lg:mt-0">
       <div className="space-y-6 sm:space-y-8">
@@ -405,6 +402,11 @@ green computing.
         </ul>
       </div>
     </div>
+
+    <div className="col-span-2">
+      <RunsTable />
+    </div>
+
   </div>
 </div>
 
