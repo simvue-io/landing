@@ -379,7 +379,7 @@ green computing.
             </span>
 
             <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Search, sort and filter
+              Live monitoring
             </span>
           </li>
 
@@ -389,7 +389,7 @@ green computing.
             </span>
 
             <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Compare
+              Search, sort and filter
             </span>
           </li>
 
@@ -399,7 +399,7 @@ green computing.
             </span>
 
            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-             Live monitoring
+             Compare
             </span>
           </li>
         </ul>
