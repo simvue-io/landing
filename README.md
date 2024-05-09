@@ -11,3 +11,7 @@ To run the development server:
 ```bash
 npm run dev
 ```
+
+## Deployment
+
+Commit your changes. The GitHub pages site will be automatically updated.
