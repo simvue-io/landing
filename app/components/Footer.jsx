@@ -10,7 +10,7 @@ export default function Footer() {
           >
             <img
               className="color-invertible"
-              src="/simvue-black-small.png"
+              src="/landing/simvue-black-small.png"
               width="120"
               height="28"
               alt="Simvue Logo"
