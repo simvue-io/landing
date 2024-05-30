@@ -62,7 +62,7 @@ export default function UseCase() {
                     The problem
                   </h2>
 
-                  <p className="mt-3 text-gray-500 dark:text-neutral-500">
+                  <p className="mt-3 text-gray-500 dark:text-neutral-500 pt-2">
                     As MOOSE simulations progress, large volumes of unhelpful
                     information is printed to the console log. Results are
                     created in a range of different files but cannot be tracked
@@ -78,7 +78,7 @@ export default function UseCase() {
                     The solution
                   </h2>
 
-                  <p className="mt-3 text-gray-500 dark:text-neutral-500">
+                  <p className="mt-3 text-gray-500 dark:text-neutral-500 pt-2">
                     Simvue can be used to track and store inputs and outputs
                     from MOOSE simulations, uploading tags and metadata to runs
                     to help with sorting and filtering. Data from the console
