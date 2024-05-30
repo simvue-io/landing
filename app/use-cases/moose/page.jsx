@@ -53,8 +53,8 @@ export default function UseCase() {
           </div>
         </div>
 
-        <div className="pt-12 pb-6">
-          <div className="bg-gray-100 dark:bg-slate-800 pt-12 pb-6">
+        <div className="pt-6 pb-6">
+          <div className="bg-gray-100 dark:bg-slate-800 pt-8 pb-8">
             <div className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
               <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-16">
                 <div>
