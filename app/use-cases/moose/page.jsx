@@ -103,9 +103,28 @@ export default function UseCase() {
           <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div className="max-w-4xl mx-auto">
               <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-12">
-                <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-teal-300 text-blue-800 dark:bg-teal-900 dark:text-blue-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-lasso"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#ffffff"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4.028 13.252c-.657 -.972 -1.028 -2.078 -1.028 -3.252c0 -3.866 4.03 -7 9 -7s9 3.134 9 7s-4.03 7 -9 7c-1.913 0 -3.686 -.464 -5.144 -1.255" />
+                        <path d="M5 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M5 17c0 1.42 .316 2.805 1 4" />
+                      </svg>
+                    </span>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
                       Dedicated MOOSE integration
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
@@ -116,9 +135,30 @@ export default function UseCase() {
                   </div>
                 </div>
 
-                <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-cyan-300 text-blue-800 dark:bg-cyan-900 dark:text-blue-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-timeline"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#ffffff"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 16l6 -7l5 5l5 -6" />
+                        <path d="M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M10 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M4 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M20 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                      </svg>
+                    </span>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
                       Real time tracking and alerting
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
@@ -129,9 +169,28 @@ export default function UseCase() {
                   </div>
                 </div>
 
-                <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-sky-300 text-blue-800 dark:bg-sky-900 dark:text-blue-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-filter-search"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#ffffff"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M11.36 20.213l-2.36 .787v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414" />
+                        <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M20.2 20.2l1.8 1.8" />
+                      </svg>
+                    </span>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
                       Searchable simulation history
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
@@ -142,9 +201,30 @@ export default function UseCase() {
                   </div>
                 </div>
 
-                <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-blue-300 text-blue-800 dark:bg-blue-900 dark:text-blue-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-share"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#ffffff"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M8.7 10.7l6.6 -3.4" />
+                        <path d="M8.7 13.3l6.6 3.4" />
+                      </svg>
+                    </span>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
                       Share results with your team
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
