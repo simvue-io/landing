@@ -58,7 +58,7 @@ export default function UseCase() {
             <div className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
               <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
                 <div>
-                  <h2 className="text-2xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                  <h2 className="text-3xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
                     The problem
                   </h2>
 
@@ -74,7 +74,7 @@ export default function UseCase() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                  <h2 className="text-3xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
                     The solution
                   </h2>
 
