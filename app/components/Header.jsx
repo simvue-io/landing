@@ -93,6 +93,12 @@ export default function Header() {
 Monitor your MOOSE applications in real time
                   </div>
                 </a>
+                <a className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300" href="/landing/use-cases/fds">
+                  <div className="grow">
+                    <span className="block font-semibold mb-1 text-gray-800 dark:text-neutral-200">FDS</span>
+Running efficient and cost-effective  fire safety simulation campaigns
+                  </div>
+                </a>
 
               </div>
             </div>
