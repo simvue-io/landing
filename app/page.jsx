@@ -282,15 +282,6 @@ green computing.
 </p>
 </div>
 
-<div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-8 mx-auto">
-  <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-12">
-
-<div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/FJHL0SXinyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-
 
 <div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-8 mx-auto">
   <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-12">
