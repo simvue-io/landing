@@ -62,7 +62,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           HRR
                         </span>
                       </span>
@@ -93,7 +93,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           radiation_loss
                         </span>
                       </span>
@@ -124,7 +124,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           max_velocity_error
                         </span>
                       </span>
@@ -155,7 +155,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           FED*
                         </span>
                       </span>
@@ -186,7 +186,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           THCP*
                         </span>
                       </span>
@@ -217,7 +217,7 @@ export default function Footer() {
                     </td>
                     <td className="size-px whitespace-nowrap">
                       <span className="block px-6 py-2">
-                        <span className="text-xs text-blue-600 dark:text-blue-500">
+                        <span className="text-xs text-gray-600 dark:text-neutral-400">
                           VIS*
                         </span>
                       </span>
