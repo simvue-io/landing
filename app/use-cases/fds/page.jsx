@@ -10,40 +10,22 @@ export default function UseCase() {
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
             <div>
               <h2 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
-                Running efficient and cost-effective fire safety simulation campaigns
+                Running efficient and cost-effective fire safety simulation
+                campaigns
               </h2>
               <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">
-Running complex fire safety simulations that model numerous parameters in real time is a challenge. Efficiently managing and preserving data lineage while running multiple scenarios on a scalable computing infrastructure from a single dashboard is beneficial.
+                Running complex fire safety simulations that model numerous
+                parameters in real time is a challenge. Efficiently managing and
+                preserving data lineage while running multiple scenarios on a
+                scalable computing infrastructure from a single dashboard is
+                beneficial.
               </p>
-
-              <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                <a
-                  className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
-                  href="#"
-                >
-                  Get started
-                  <svg
-                    className="flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="m9 18 6-6-6-6" />
-                  </svg>
-                </a>
-              </div>
             </div>
 
             <div className="relative ms-4">
               <img
                 className="w-full rounded-md"
-                src="/landing/fds3.png"
+                src="/fds3.png"
                 alt="Image Description"
               />
             </div>
@@ -60,7 +42,12 @@ Running complex fire safety simulations that model numerous parameters in real t
                   </h2>
 
                   <p className="mt-3 text-gray-500 dark:text-neutral-500 pt-2">
-Modelling various scenarios for fire safety or sprinkler design necessitates running numerous simulations. Keeping track of these simulations and comparing their results is challenging. Gaining the ability to terminate ineffective simulations would help reduce costs and optimise resources for more efficient modelling campaigns.
+                    Modelling various scenarios for fire safety or sprinkler
+                    design necessitates running numerous simulations. Keeping
+                    track of these simulations and comparing their results is
+                    challenging. Gaining the ability to terminate ineffective
+                    simulations would help reduce costs and optimise resources
+                    for more efficient modelling campaigns.
                   </p>
                 </div>
 
@@ -70,7 +57,12 @@ Modelling various scenarios for fire safety or sprinkler design necessitates run
                   </h2>
 
                   <p className="mt-3 text-gray-500 dark:text-neutral-500 pt-2">
-Use Simvue to conduct fire safety simulation campaigns, evaluating multiple scenarios while preserving data lineage. Agnostic to legacy software or hardware infrastructure, Simvue can manage your simulation data effectively. Easily integrate your tagged data with standard AI/ML frameworks. 
+                    Use <b>Simvue</b> to conduct fire safety simulation
+                    campaigns, evaluating multiple scenarios while preserving
+                    data lineage. Agnostic to legacy software or hardware
+                    infrastructure, <b>Simvue</b> can manage your simulation
+                    data effectively. Easily integrate your tagged data with
+                    standard AI/ML frameworks.
                   </p>
                 </div>
               </div>
@@ -97,11 +89,11 @@ Use Simvue to conduct fire safety simulation campaigns, evaluating multiple scen
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                         stroke="#ffffff"
                         fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M4.028 13.252c-.657 -.972 -1.028 -2.078 -1.028 -3.252c0 -3.866 4.03 -7 9 -7s9 3.134 9 7s-4.03 7 -9 7c-1.913 0 -3.686 -.464 -5.144 -1.255" />
@@ -110,10 +102,12 @@ Use Simvue to conduct fire safety simulation campaigns, evaluating multiple scen
                       </svg>
                     </span>
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
-Metadata and tags
+                      Metadata and tags
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
-Use tags and metadata to classify different simulation campaigns and generate data that is suitable for peer view or further
+                      Use tags and metadata to classify different simulation
+                      campaigns and generate data that is suitable for peer view
+                      or further
                     </p>
                   </div>
                 </div>
@@ -123,30 +117,30 @@ Use tags and metadata to classify different simulation campaigns and generate da
                     <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-cyan-300 text-blue-800 dark:bg-cyan-900 dark:text-blue-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-timeline"
+                        class="icon icon-tabler icon-tabler-database"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                         stroke="#ffffff"
                         fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 16l6 -7l5 5l5 -6" />
-                        <path d="M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                        <path d="M10 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                        <path d="M4 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                        <path d="M20 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+                        <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+                        <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
                       </svg>
                     </span>
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
-Store input and output files
+                      Store input and output files
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
-Keep track of input and numerous output files that are generated from each simulation run.
-Easily access and compare configurations and generate comparison plots for different scenarios.
+                      Keep track of input and numerous output files that are
+                      generated from each simulation run. Easily access and
+                      compare configurations and generate comparison plots for
+                      different scenarios.
                     </p>
                   </div>
                 </div>
@@ -160,11 +154,11 @@ Easily access and compare configurations and generate comparison plots for diffe
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                         stroke="#ffffff"
                         fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M11.36 20.213l-2.36 .787v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414" />
@@ -173,10 +167,11 @@ Easily access and compare configurations and generate comparison plots for diffe
                       </svg>
                     </span>
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
-AI/ML integration
+                      AI/ML integration
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
-Use the tagged data to accelerate the development of training data and machine learning models.
+                      Use the tagged data to accelerate the development of
+                      training data and machine learning models.
                     </p>
                   </div>
                 </div>
@@ -190,11 +185,11 @@ Use the tagged data to accelerate the development of training data and machine l
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                         stroke="#ffffff"
                         fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
@@ -205,10 +200,11 @@ Use the tagged data to accelerate the development of training data and machine l
                       </svg>
                     </span>
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white pt-4">
-Events and logs
+                      Events and logs
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
-Easily capture exceptions, errors and log messages when running multiple simulations.
+                      Easily capture exceptions, errors and log messages when
+                      running multiple simulations.
                     </p>
                   </div>
                 </div>
