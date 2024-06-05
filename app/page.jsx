@@ -14,39 +14,49 @@ export default function Home() {
 
       <main id="content">
 
-        <div className="max-w-[85rem] mx-auto pt-12 pb-12 px-4 sm:px-6 lg:px-8 md:pt-24 md:pb-24">
-          <div className="relative overflow-hidden">
-            <div className="mt-5 max-w-2xl text-center mx-auto">
-              <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
+<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-20">
+  <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+    <div>
+      <h2 className="block text-5xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
                 Simulation{" "}
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
                   tracking
-                </span>{" "}
+                </span><br/>
                 and{" "}
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
                   monitoring
                 </span>
-              </h1>
-            </div>
-
-            <div className="mt-5 max-w-3xl text-center mx-auto">
-              <p className="text-lg text-gray-600 dark:text-gray-400">
-                Organise and gain insights into simulations, data processing or AI/ML training by
+</h2>
+      <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
+Organise and gain insights into your data or AI/ML training by
                 capturing metadata and data combined with real-time monitoring,
                 logging and alerting.
-              </p>
-            </div>
+</p>
 
-            <div className="mt-8 gap-3 flex justify-center">
+      <div className="mt-7 grid gap-3 w-full sm:inline-flex">
               <a
                 className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-blue-400 hover:from-blue-400 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800"
                 href="https://docs.simvue.io/introduction/"
               >
                 Get started
               </a>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+
+    <div className="relative">
+<div className="aspect-video" >
+    <iframe 
+        className="h-full w-full rounded-lg"
+        src="https://www.youtube.com/embed/FJHL0SXinyY" 
+        width="100%" 
+        title="YouTube video player" 
+        frameBorder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen> 
+     </iframe>
+  </div>
+</div>
+</div>
+</div>
 
         <div className="bg-gray-100 dark:bg-slate-800 pt-12 pb-6">
           <div className="max-w-4xl mx-auto text-center pt-4 pb-4 lg:pb-1">
