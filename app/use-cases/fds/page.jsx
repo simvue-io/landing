@@ -43,7 +43,7 @@ Running complex fire safety simulations that model numerous parameters in real t
             <div className="relative ms-4">
               <img
                 className="w-full rounded-md"
-                src="/fds3.png"
+                src="/landing/fds3.png"
                 alt="Image Description"
               />
             </div>
