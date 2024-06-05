@@ -46,7 +46,7 @@ function status(name) {
     );
   } else if (name == "Failed") {
     return (
-      <span className="inline-flex items-center gap-1.5 py-0.5 px-2 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900 dark:text-green-200">
+      <span className="inline-flex items-center gap-1.5 py-0.5 px-2 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-500/10 dark:text-red-500">
         <svg
           className="size-2.5"
           xmlns="http://www.w3.org/2000/svg"
