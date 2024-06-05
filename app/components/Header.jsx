@@ -87,12 +87,6 @@ export default function Header() {
               </button>
 
               <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-80 hidden z-10 bg-white md:shadow-2xl rounded-lg py-2 md:p-2 dark:bg-neutral-800 dark:divide-neutral-700 before:absolute right-0 top-full before:-top-5 before:start-0 before:w-full before:h-5">
-                <a className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300" href="/landing/use-cases/moose">
-                  <div className="grow">
-                    <span className="block font-semibold mb-1 text-gray-800 dark:text-neutral-200">Multi-physics simulations</span>
-Monitor your MOOSE applications in real time
-                  </div>
-                </a>
                 <a className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300" href="/landing/use-cases/fds">
                   <div className="grow">
                     <span className="block font-semibold mb-1 text-gray-800 dark:text-neutral-200">Fire safety simulations</span>
