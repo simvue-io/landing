@@ -110,7 +110,7 @@ export default function Lineage() {
         },
       },
     },
-    behaviors: ['zoom-canvas',],
+    behaviors: [],
   };
 
   return (
