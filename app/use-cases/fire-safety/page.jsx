@@ -26,7 +26,7 @@ export default function UseCase() {
               <img
                 className="w-full rounded-md"
                 src="/fds3.png"
-                alt="Image Description"
+                alt="Simulation of a fire and a sprinkler"
               />
             </div>
           </div>
