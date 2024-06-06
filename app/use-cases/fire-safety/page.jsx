@@ -25,7 +25,7 @@ export default function UseCase() {
             <div className="relative ms-4">
               <img
                 className="w-full rounded-md"
-                src="/landing/fds3.png"
+                src="/fds3.png"
                 alt="Image Description"
               />
             </div>
