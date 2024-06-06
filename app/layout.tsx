@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <PlausibleProvider domain="simvue.io">
+    <PlausibleProvider domain="simvue.io" customDomain="https://plausible.uryisv.cloud" selfHosted={true} >
     <html lang="en">
       <body className={inter.className}>{children}<Footer /></body>
        <PrelineScript />
