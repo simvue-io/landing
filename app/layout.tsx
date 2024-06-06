@@ -18,7 +18,22 @@ export const metadata: Metadata = {
   "data management",
   "metadata",
   "alerting"
-  ]
+  ],
+  openGraph: {
+    url: "https://simvue.io",
+    type: "website",
+    title: "Simvue",
+    description:
+      "Simulation tracking and monitoring platform",
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/simvue-io/.github/main/simvue-black.png",
+        width: 780,
+        height: 171,
+        alt: "Simvue"
+      }
+    ]
+  },
 };
 
 export default function RootLayout({
