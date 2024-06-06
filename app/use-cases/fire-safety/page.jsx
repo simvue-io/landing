@@ -106,8 +106,8 @@ export default function UseCase() {
                     </h3>
                     <p className="mt-3 text-gray-500 dark:text-neutral-500">
                       Use tags and metadata to classify different simulation
-                      campaigns and generate data that is suitable for peer view
-                      or further
+                      campaigns and generate data that is suitable for peer review
+                      or further analysis with data lineage.
                     </p>
                   </div>
                 </div>
