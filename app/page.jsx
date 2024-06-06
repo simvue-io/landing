@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import RunsTable from "./components/RunsTable";
 import AlertsTable from "./components/AlertsTable";
-import Parallel from "./components/Parallel";
 import Header from "./components/Header";
 
 import dynamic from "next/dynamic";
