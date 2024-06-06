@@ -12,10 +12,13 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@ant-design/graphs": "^1.4.1",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.17",
     "@mui/x-charts": "^7.3.2",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2",
     "next": "14.1.4",
     "preline": "^2.1.0",
     "react": "^18",

@@ -3,7 +3,17 @@
 import { useRouter } from "next/navigation";
 import RunsTable from "./components/RunsTable";
 import AlertsTable from "./components/AlertsTable";
+import Parallel from "./components/Parallel";
 import Header from "./components/Header";
+
+import dynamic from "next/dynamic";
+
+const Lineage = dynamic(
+  () => import("./components/Lineage"),
+  {
+    ssr: false,
+  },
+);
 
 export default function Home() {
   const router = useRouter();
@@ -283,7 +293,7 @@ green computing.
 </div>
 
 
-<div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-8 mx-auto">
+<div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-2 mx-auto">
   <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-12">
 
     <div className="mt-5 sm:mt-5 lg:mt-0">
@@ -340,7 +350,7 @@ green computing.
 
 
 
-<div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-8 mx-auto">
+<div className="max-w-[85rem] px-2 py-2 sm:px-2 lg:px-2 lg:py-2 mx-auto">
   <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-12">
 
     <div>
@@ -396,8 +406,55 @@ green computing.
 </div>
 
 
+<div className="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 lg:py-2 mx-auto">
+  <div className="md:grid md:grid-cols-3 md:items-center md:gap-12 xl:gap-12">
+  
+    <div className="mt-5 sm:mt-5 lg:mt-0">
+      <div className="space-y-6 sm:space-y-8">
+        <div className="space-y-2 md:space-y-4">
+          <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+            Lineage
+          </h2>
+          <p className="text-gray-500 dark:text-neutral-500">
+            Understand the connections and dependencies between tasks and artifacts.
+          </p>
+        </div>
 
-        <div className="pt-2 pb-2">
+        <ul className="space-y-2 sm:space-y-4">
+          <li className="flex space-x-3">
+            <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+              <svg className="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Discover where artifacts are being used
+            </span>
+          </li>
+
+          <li className="flex space-x-3">
+            <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+              <svg className="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Explore the lineage of any artifact
+            </span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div className="col-span-2">
+      <Lineage />
+    </div>
+
+  </div>
+</div>
+
+
+
+        <div className="pt-6 pb-2">
           <div className="w-full mx-auto pt-16 pb-16 text-center bg-gradient-to-br from-violet-700 to-sky-500">
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl text-white">
               Are you ready to take control?
