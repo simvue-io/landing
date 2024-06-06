@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://simvue.io",
     type: "website",
-    title: "Simvue",
+    title: "Simvue: Simulation tracking and monitoring",
     description:
-      "Simulation tracking and monitoring platform",
+      "Organise and gain insights into simulations, data processing or AI/ML training by capturing metadata and data combined with real-time monitoring, logging and alerting.",
     images: [
       {
-        url: "https://raw.githubusercontent.com/simvue-io/.github/main/simvue-black.png",
-        width: 780,
-        height: 171,
+        url: "https://simvue.io/social.png",
+        width: 1200,
+        height: 630,
         alt: "Simvue"
       }
     ]
