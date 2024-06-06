@@ -61,8 +61,8 @@ export default function UseCase() {
                     campaigns, evaluating multiple scenarios while preserving
                     data lineage. Agnostic to legacy software or hardware
                     infrastructure, <b>Simvue</b> can manage your simulation
-                    data effectively. Easily integrate your tagged data with
-                    standard AI/ML frameworks.
+                    data effectively using metadata and easily integrate your 
+                    tagged data with standard AI/ML frameworks.
                   </p>
                 </div>
               </div>
