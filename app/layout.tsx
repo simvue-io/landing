@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       {
         url: "https://simvue.io/social.png",
         width: 1200,
-        height: 630,
+        height: 912,
         alt: "Simvue"
       }
     ]
