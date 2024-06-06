@@ -10,6 +10,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Simvue",
   description: "Simulation tracking and monitoring platform",
+  keywords: [
+  "simulations",
+  "tracking",
+  "metrics",
+  "experiment management",
+  "data management",
+  "metadata",
+  "alerting"
+  ]
 };
 
 export default function RootLayout({
