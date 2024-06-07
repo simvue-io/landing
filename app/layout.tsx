@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import PrelineScript from "./components/PrelineScript";
-import Footer from "./components/Footer";
 import PlausibleProvider from 'next-plausible';
 
 const inter = Inter({ subsets: ["latin"] });
@@ -44,7 +43,7 @@ export default function RootLayout({
   return (
     <PlausibleProvider domain="simvue.io" customDomain="https://plausible.uryisv.cloud" selfHosted={true} >
     <html lang="en">
-      <body className={inter.className}>{children}<Footer /></body>
+      <body className={inter.className}>{children}</body>
        <PrelineScript />
     </html>
     </PlausibleProvider>
