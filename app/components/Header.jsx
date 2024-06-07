@@ -8,7 +8,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a
               className="flex-none text-xl font-semibold dark:text-white"
-              href="/"
+              href="/innovation-2024"
               aria-label="Simvue logo"
             >
               <img
