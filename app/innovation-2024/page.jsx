@@ -32,17 +32,17 @@ export default function Home() {
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
                   sustainability
                 </span>{" "}
-                for{" "}
+                for any{" "}
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
-                  any simulation, data processing or AI/ML tasks
+                  simulation, data or AI/ML tasks
                 </span>
               </h1>
             </div>
 
             <div className="mt-5 max-w-3xl text-center mx-auto">
               <p className="text-lg text-gray-600 dark:text-gray-400">
-                Innovative solutions for sustainability at an environmental, social and economic scale using real-time monitoring, alerting, logging,  
-                capturing metadata and data, to organise and gain insights.
+                Innovative solutions for unlocking sustainability at an environmental, social and economic scale using real-time monitoring,   
+                alerting, logging and capturing metadata and data, to organise and gain insights.
               </p>
             </div>
 
