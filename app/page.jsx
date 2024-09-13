@@ -17,21 +17,21 @@ export default function Home() {
             <div className="relative overflow-hidden">
               <div className="mt-5 max-w-2xl text-center mx-auto">
                 <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
-                  Simulation{" "}
+                  Unlocking {" "}
                   <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
-                    tracking
+                    sustainability
                   </span>{" "}
-                  and{" "}
+                  for {" "}
                   <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
-                    monitoring
+                    any simulation, data processing or AI/ML tasks
                   </span>
                 </h1>
               </div>
 
               <div className="mt-5 max-w-3xl text-center mx-auto">
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                Unlock sustainability by using real-time monitoring, alerting, capturing metadata and data, to organise 
-                and gain insights for any simulations, data processing or AI/ML training tasks.
+                Innovative solutions for sustainability at an environmental, social and economic scale using real-time monitoring, alerting, logging,  
+                capturing metadata and data, to organise and gain insights.
                 </p>
               </div>
 
