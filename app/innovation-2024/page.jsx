@@ -26,16 +26,13 @@ export default function Home() {
 
         <div className="max-w-[85rem] mx-auto pt-4 pb-4 px-4 sm:px-6 lg:px-8 md:pt-8 md:pb-8">
           <div className="relative overflow-hidden">
-            <div className="mt-5 max-w-2xl text-center mx-auto">
+            <div className="mt-5 max-w-3xl text-center mx-auto">
               <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
                 Unlocking{" "}
                 <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
                   sustainability
                 </span>{" "}
-                for any{" "}
-                <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent">
-                  simulation, data or AI/ML tasks
-                </span>
+                for any simulation, data processing or AI/ML tasks
               </h1>
             </div>
 
