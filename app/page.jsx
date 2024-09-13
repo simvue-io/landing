@@ -30,9 +30,8 @@ export default function Home() {
 
               <div className="mt-5 max-w-3xl text-center mx-auto">
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                  Unlock sustainability by using real-time monitoring, logging and alerting and capturing metadata and data to organise and gain insights into simulations, data processing
-                  or AI/ML training.
-                  .
+                Unlock sustainability by using real-time monitoring, alerting, capturing metadata and data, to organise 
+                and gain insights for any simulations, data processing or AI/ML training tasks.
                 </p>
               </div>
 
