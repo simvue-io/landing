@@ -28,8 +28,8 @@ export default function Home() {
 
               <div className="mt-5 max-w-3xl text-center mx-auto">
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                Innovative solutions for unlocking sustainability at an environmental, social and economic scale using real-time monitoring,   
-                alerting, logging and capturing metadata and data, to organise and gain insights.
+                Innovative solutions for unlocking sustainability at an environmental, social and economic scale by capturing and tracking metadata, using real-time monitoring,   
+                alerting and logging to organise and gain insights.
                 </p>
               </div>
 
