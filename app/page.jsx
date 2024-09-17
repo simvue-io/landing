@@ -36,7 +36,7 @@ export default function Home() {
               <div className="mt-8 gap-3 flex justify-center">
                 <button
                   type="button"
-                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full bg-gradient-to-tl from-blue-600 to-blue-400 hover:from-blue-400 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800 disabled:pointer-events-none"
+                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full bg-gradient-to-tl from-green-600 to-lime-600 hover:from-lime-500 hover:to-green-500 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800 disabled:pointer-events-none"
                   onClick={() => router.push("mailto:info@simvue.io")}
                 >
                   Contact us for more information
