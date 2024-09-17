@@ -451,7 +451,7 @@ green computing.
 
 
         <div className="pt-6 pb-2">
-          <div className="w-full mx-auto pt-16 pb-16 text-center bg-gradient-to-br from-violet-700 to-sky-500">
+          <div className="w-full mx-auto pt-16 pb-16 text-center bg-gradient-to-br from-teal-700 to-green-500">
             <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl text-white">
               Are you ready to take control?
             </h2>
