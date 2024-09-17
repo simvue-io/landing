@@ -83,10 +83,10 @@ export default function UseCase() {
               <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-12">
                 <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl hover:shadow-lg transition rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-teal-300 text-blue-800 dark:bg-teal-900 dark:text-blue-400">
+                    <span className="inline-flex justify-center items-center size-[46px] rounded-full bg-teal-300 text-blue-800 dark:bg-teal-900 dark:text-blue-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-lasso"
+                        className="icon icon-tabler icon-tabler-lasso"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -115,10 +115,10 @@ export default function UseCase() {
 
                 <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl hover:shadow-lg transition rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-cyan-300 text-blue-800 dark:bg-cyan-900 dark:text-blue-400">
+                    <span className="inline-flex justify-center items-center size-[46px] rounded-full bg-cyan-300 text-blue-800 dark:bg-cyan-900 dark:text-blue-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-database"
+                        className="icon icon-tabler icon-tabler-database"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -148,10 +148,10 @@ export default function UseCase() {
 
                 <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl hover:shadow-lg transition rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-sky-300 text-blue-800 dark:bg-sky-900 dark:text-blue-400">
+                    <span className="inline-flex justify-center items-center size-[46px] rounded-full bg-sky-300 text-blue-800 dark:bg-sky-900 dark:text-blue-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-filter-search"
+                        className="icon icon-tabler icon-tabler-filter-search"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -179,10 +179,10 @@ export default function UseCase() {
 
                 <div className="group flex flex-col h-full bg-gray-100 border border-gray-200 shadow-sm rounded-xl hover:shadow-lg transition rounded-xl dark:bg-slate-800 dark:border-neutral-700 dark:shadow-neutral-700/70">
                   <div className="p-4 md:p-6">
-                    <span class="inline-flex justify-center items-center size-[46px] rounded-full bg-blue-300 text-blue-800 dark:bg-blue-900 dark:text-blue-400">
+                    <span className="inline-flex justify-center items-center size-[46px] rounded-full bg-blue-300 text-blue-800 dark:bg-blue-900 dark:text-blue-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-share"
+                        className="icon icon-tabler icon-tabler-share"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
