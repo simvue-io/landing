@@ -47,7 +47,7 @@ export default function Home() {
         </main>
         <footer className="ml-auto w-full py-6 px-4 sm:px-6 lg:px-8 mx-auto dark:bg-slate-900">
           <div className="flex justify-end">
-            <img src="/UKAEA.png" width="213" height="24" alt="UKAEA" />
+            <img className="color-invertible" src="/UKAEA.png" width="213" height="24" alt="UKAEA" />
           </div>
         </footer>
       </div>
