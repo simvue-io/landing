@@ -50,7 +50,7 @@ export default function Home() {
             <div className="flex justify-center">
               <iframe
                 className="max-w-xl aspect-video rounded-lg"
-                src="https://www.youtube.com/embed/6NCAYzay-A8"
+                src="https://www.youtube.com/embed/jzMa0dHghBs"
                 width="100%"
                 title="YouTube video player"
                 frameBorder="0"
