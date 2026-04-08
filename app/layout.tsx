@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Simvue",
-  description: "Simulation tracking and monitoring platform",
+  description: "Redefining simulation science for the AI era",
   keywords: [
   "simulations",
   "tracking",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://simvue.io",
     type: "website",
-    title: "Simvue: Simulation tracking and monitoring",
+    title: "Simvue: Redefining simulation science for the AI era",
     description:
       "Organise and gain insights into simulations, data processing or AI/ML training by capturing metadata and data combined with real-time monitoring, logging and alerting.",
     images: [
